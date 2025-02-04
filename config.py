@@ -1,3 +1,8 @@
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
 import os, time, re
 id_pattern = re.compile(r'^.\d+$')
 
@@ -16,7 +21,12 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "") #leave it empty, if you don't need a start pic
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
+    
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "") #channel user name without @ or https://t.me/
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "")) 
@@ -25,7 +35,19 @@ class Config(object):
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
 
-
+#Token Verification (added by @The_TGguy)
+VERIFY_PHOTO = os.environ.get('VERIFY_PHOTO', '')  # YOUR VERIFY PHOTO LINK
+SHORTLINK_SITE = os.environ.get('SHORTLINK_SITE', '') # YOUR SHORTLINK URL LIKE:- site.com
+SHORTLINK_API = os.environ.get('SHORTLINK_API', '') # YOUR SHORTLINK API LIKE:- ma82owowjd9hw6_js7
+VERIFY_EXPIRE = os.environ.get('VERIFY_EXPIRE', 0) # VERIFY EXPIRE TIME IN SECONDS. LIKE:- 0 (ZERO) TO OFF VERIFICATION 
+VERIFY_TUTORIAL = os.environ.get('VERIFY_TUTORIAL', '') # LINK OF TUTORIAL TO VERIFY  
+COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Verification')   # Collection Name For MongoDB 
+PREMIUM_USERS = list(map(int, os.environ.get('PREMIUM_USERS', '').split()))
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
 
 class Txt(object):
     # part of text configuration
@@ -46,7 +68,11 @@ class Txt(object):
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ᴍᴏʀᴇ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</b>
 """
-
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
     HELP_TXT = """
 <b>ʀᴇɴᴀᴍᴇ ʙᴏᴛ ɪꜱ ᴀ ʜᴀɴᴅʏ ᴛᴏᴏʟ ᴛʜᴀᴛ ʜᴇʟᴘꜱ ʏᴏᴜ ʀᴇɴᴀᴍᴇ ᴀɴᴅ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ꜰɪʟᴇꜱ ᴇꜰꜰᴏʀᴛʟᴇꜱꜱʟʏ.
 
@@ -60,7 +86,11 @@ class Txt(object):
 ➲ /viewthumb: ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
 
 <b>ɴᴏᴛᴇ :</b> ɪꜰ ɴᴏ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴀᴠᴇᴅ ɪɴ ʙᴏᴛ ᴛʜᴇɴ, ɪᴛ ᴡɪʟʟ ᴜꜱᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴏꜰ ᴛʜᴇ ᴏʀɪɢɪɴɪᴀʟ ꜰɪʟᴇ ᴛᴏ ꜱᴇᴛ ɪɴ ʀᴇɴᴀᴍᴇᴅ ꜰɪʟᴇ"""
-
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
     CAPTION_TXT = """<b>» <u>ᴛᴏ ꜱᴇᴛ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ</u></b>
     
 <b>ᴠᴀʀɪᴀʙʟᴇꜱ :</b>         
@@ -74,7 +104,11 @@ class Txt(object):
 
 » ᴇx: /set_caption ꜰɪʟᴇ ɴᴀᴍᴇ: {filename}
 """
-
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
     PREFIX = """<b>» <u>ᴛᴏ ꜱᴇᴛ ᴄᴜꜱᴛᴏᴍ ᴘʀᴇꜰɪx</u></b>
 
 ➲ /set_prefix: ᴛᴏ ꜱᴇᴛ ᴀ ᴄᴜꜱᴛᴏᴍ ᴘʀᴇꜰɪx.
@@ -92,7 +126,11 @@ class Txt(object):
 
 » ᴇx: `/set_suffix @The_TGguy`
 """
-
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
     PROGRESS_BAR = """\n
  <b>🔗 Size :</b> {1} | {2}
 ️ <b>⏳️ Done :</b> {0}%
@@ -111,7 +149,11 @@ class Txt(object):
 
 💗 𝐐𝐑 𝐂𝐨𝐝𝐞 : <b><a href='https://t.me/tg_guys_store2bot?start=BQADAQADwQkAAqk6EEXgqjPYspgNqRYE'>𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a></b>
 """
-
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
     SEND_METADATA = """🖼️ 𝗛𝗼𝘄 𝗧𝗼 𝗦𝗲𝘁 𝗖𝘂𝘀𝘁𝗼𝗺 𝗠𝗲𝘁𝗮𝗱𝗮𝘁𝗮
 
 For Example :-
