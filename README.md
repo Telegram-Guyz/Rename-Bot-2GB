@@ -21,7 +21,7 @@
 - Auto delete 
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway.
-- [Developer support](https://telegram.me/TGguy_support) 24x7
+- [Developer support](https://t.me/Tg_Guy_Support) 24x7
 </details>
 
 
@@ -81,7 +81,7 @@ and [Me 😁](https://github.com/Telegram-Guyz) for adding token verification
 
 ### 💕 CONTACT DEVELOPER
 
-- [Rahul](https://telegram.me/)
+- [◉⁠‿⁠◉](https://telegram.me/TGguy_Ownerobot)
 
 ### 📌 NOTE
 
