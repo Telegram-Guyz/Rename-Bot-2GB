@@ -4,7 +4,11 @@ from time import time
 from urllib3 import disable_warnings
 from pyrogram import Client, filters 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-
+#Don't remove credit 💳 
+#Only for educational purposes 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots
 from cloudscraper import create_scraper
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import Config
@@ -15,6 +19,8 @@ VERIFY_EXPIRE = Config.VERIFY_EXPIRE
 SHORTLINK_API = Config.SHORTLINK_API
 SHORTLINK_SITE = Config.SHORTLINK_SITE
 VERIFY_PHOTO = Config.VERIFY_PHOTO
+COLLECTION_NAME = Config.COLLECTION_NAME
+PREMIUM_USERS = Config.PREMIUM_USERS
 
 verify_dict = {}
 missing=[v for v in ["COLLECTION_NAME", "VERIFY_PHOTO", "SHORTLINK_SITE", "SHORTLINK_API", "VERIFY_TUTORIAL"] if not v]; sys.exit(f"Missing: {', '.join(missing)}") if missing else None
