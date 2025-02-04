@@ -1,8 +1,8 @@
 <h1 align="center">
- <b><a href="https://youtu.be/6BWLUL3Faxs" target="/blank">Rename Bot 2GB</a>
+ <b><a href="https://youtu.be/Tele_Guy" target="/blank">Rename Bot 2GB</a>
 </h1>
 
-<p align="center">🩷 Thanks for Being Here 🩷</p>
+<p align="center">This is a edited repo of Techifybots rename 2gb repo </p>
 
 
 
@@ -21,7 +21,7 @@
 - Auto delete 
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway.
-- [Developer support](https://telegram.me/TechifySupport) 24x7
+- [Developer support](https://telegram.me/TGguy_support) 24x7
 </details>
 
 
@@ -75,16 +75,14 @@ status - Check bot status [FOR ADMINS USE ONLY].
 💝 [TechifyBots](https://github.com/TechifyBots)
 
 💘 [JishuDeveloper](https://github.com/JishuDeveloper)
+
+and [Me 😁](https://github.com/Telegram-Guyz) for adding token verification 
 </details>
 
 ### 💕 CONTACT DEVELOPER
 
-- [Rahul](https://telegram.me/TechifyRahul)
-
-### ☕ BUY ME A COFFEE
-- [PayPal](https://paypal.me/TechifyBots)
-- [UPI](https://TechifyBots.github.io/Donate)
+- [Rahul](https://telegram.me/)
 
 ### 📌 NOTE
 
-𝘊𝘰𝘱𝘺𝘪𝘯𝘨 𝘰𝘳 𝘚𝘦𝘭𝘭𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘳𝘦𝘱𝘰 𝘪𝘴 𝘴𝘵𝘳𝘪𝘤𝘵𝘭𝘺 𝘱𝘳𝘰𝘩𝘪𝘣𝘪𝘵𝘦𝘥.</b>
+𝘊𝘰𝘱𝘺𝘪𝘯𝘨 𝘰𝘳 𝘚𝘦𝘭𝘭𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘳𝘦𝘱𝘰 𝘪𝘴 𝘴𝘵𝘳𝘪𝘤𝘵𝘭𝘺 𝘱𝘳𝘰𝘩𝘪𝘣𝘪𝘵𝘦𝘥. Edited Version of Techifybots repo .</b>
