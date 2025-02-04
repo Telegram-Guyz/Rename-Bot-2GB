@@ -8,9 +8,13 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from cloudscraper import create_scraper
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import Config
-
+#Don't change or touch this codes
 DATABASE_URL = Config.DB_URL
-
+VERIFY_TUTORIAL = Config.VERIFY_TUTORIAL
+VERIFY_EXPIRE = Config.VERIFY_EXPIRE
+SHORTLINK_API = Config.SHORTLINK_API
+SHORTLINK_SITE = Config.SHORTLINK_SITE
+VERIFY_PHOTO = Config.VERIFY_PHOTO
 
 verify_dict = {}
 missing=[v for v in ["COLLECTION_NAME", "VERIFY_PHOTO", "SHORTLINK_SITE", "SHORTLINK_API", "VERIFY_TUTORIAL"] if not v]; sys.exit(f"Missing: {', '.join(missing)}") if missing else None
