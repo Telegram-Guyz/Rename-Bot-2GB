@@ -12,15 +12,6 @@ from config import Config
 DATABASE_URL = Config.DB_URL
 
 
-# Config Variables 😄
-VERIFY_PHOTO = os.environ.get('VERIFY_PHOTO', 'https://graph.org/file/43cd651462f9a1491ee1c-1c98e2651c2e23e0f8.jpg')  # YOUR VERIFY PHOTO LINK
-SHORTLINK_SITE = os.environ.get('SHORTLINK_SITE', 'primeurl.in') # YOUR SHORTLINK URL LIKE:- site.com
-SHORTLINK_API = os.environ.get('SHORTLINK_API', '54b3c3604b9dfef1c127a9e999be1ec4f533dd7e') # YOUR SHORTLINK API LIKE:- ma82owowjd9hw6_js7
-VERIFY_EXPIRE = os.environ.get('VERIFY_EXPIRE', 43200) # VERIFY EXPIRE TIME IN SECONDS. LIKE:- 0 (ZERO) TO OFF VERIFICATION 
-VERIFY_TUTORIAL = os.environ.get('VERIFY_TUTORIAL', 'https://t.me/hekbeisbw/51') # LINK OF TUTORIAL TO VERIFY 
-#DATABASE_URL = os.environ.get('DATABASE_URL', '') # MONGODB DATABASE URL To Store Verifications 
-COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'kabalpoks')   # Collection Name For MongoDB 
-PREMIUM_USERS = list(map(int, os.environ.get('PREMIUM_USERS', '1705634892').split()))
 verify_dict = {}
 missing=[v for v in ["COLLECTION_NAME", "VERIFY_PHOTO", "SHORTLINK_SITE", "SHORTLINK_API", "VERIFY_TUTORIAL"] if not v]; sys.exit(f"Missing: {', '.join(missing)}") if missing else None
 
