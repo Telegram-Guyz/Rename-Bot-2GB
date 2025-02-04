@@ -17,7 +17,8 @@ async def web_server():
 
 
 
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @JishuBotz
-# Developer @JishuDeveloper
+#Token Verification Added by @The_TGguy
+#Don't remove credit 💳 
+#Editing this or selling this codes are prohibited 
+#Verification codes by @GK-BOTZ
+#Original repo by @Techifybots 
